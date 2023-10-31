@@ -5,7 +5,7 @@ from langchain.chat_models import ChatOpenAI
 
 chat_model = ChatOpenAI()
 #st.balloons()
-st.title('CEA Translation assistan')
+st.title('CEA Translation Assistant')
 
 content = st.text_input('Please enter a word or sentence.-in Korean or English-')
 st.text('**If the desired answer is not provided or different, please press the "Translate for me" button again.^^')
